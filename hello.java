@@ -7,6 +7,8 @@ public class HelloWorld {
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.displayProject();
         helloWorld.displayTime();
+        helloWorld.pullChange();
+     
        
     }
     public void displayProject() {
@@ -17,5 +19,8 @@ public class HelloWorld {
         LocalTime currentTime = LocalTime.now();
         System.out.println("Current Time: " + currentTime);
     }
+      public void pullChange(){
+           System.out.println("This is some test code for PULLING");
+      }
 
 }
